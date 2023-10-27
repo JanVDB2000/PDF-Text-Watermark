@@ -1,0 +1,21 @@
+{
+  "name": "janvdb2000/pdf-text-watermark",
+  "description": "A description of your package",
+  "type": "library",
+  "keywords": ["php", "composer", "package"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan",
+      "email": "timemen2000@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "JanVDB2000\\PDFTextWatermark\\": "src/"
+    }
+  }
+}
