@@ -1,6 +1,6 @@
 <?php
 
-namespace JanVDB2000\Interface;
+namespace JanVDB2000\PDFTextWatermark\Interfaces;
 
 interface PositionInterface
 {
@@ -8,19 +8,19 @@ interface PositionInterface
 
     public static function BottomLeft();
 
-    public static function BottomRicht();
+    public static function BottomRight();
 
     public static function TopCenter();
 
     public static function TopLeft();
 
-    public static function TopRicht();
+    public static function TopRight();
 
     public static function Center();
 
-    public static function CenterLeft();
+    public static function MiddleLeft();
 
-    public static function CenterRicht();
+    public static function MiddleRight();
 
     public static function CustomPosition($y,$x);
 
